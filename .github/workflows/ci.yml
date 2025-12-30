@@ -2,9 +2,7 @@
 name: C CI/CD Pipeline
 
 # Trigger on push and pull request events
-on: 
-  - push
-  - pull_request
+on: []]
 
 # Define jobs to run
 jobs:
