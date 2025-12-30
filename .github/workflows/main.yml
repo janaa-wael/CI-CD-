@@ -11,7 +11,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '29 5 * * 0'
+    - cron: "33 5 * * 0"
+
 ####$$
 jobs:
   Build:
