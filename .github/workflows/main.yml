@@ -13,8 +13,8 @@ on:
   schedule:
     - cron: "50 3 * * *"
   
-  permissions:
-    contents: read
+permissions:
+  contents: read
 
 ####$$
 jobs:
