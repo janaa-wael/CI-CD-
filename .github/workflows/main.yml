@@ -73,7 +73,7 @@ jobs:
             output: trivy-results.json
         
         - name: Upload Trivy Scan Results as Artifacts
-          uses: action
+          uses: actions/upload-artifact@v4
           with:
             name: trivy-scan-results
             path: trivy-results.json
